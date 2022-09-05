@@ -24,7 +24,7 @@ To test this:
   ```
   It will ask for a keywork. Use "test2" as an exemple;  
   
-## Unloading text to your clipboard (to be used on your ctrl+V):
+## 3. Unloading text to your clipboard (to be used on your ctrl+V):
   Type on the terminal:  
   ```
   python3 multiclipboard.py load
