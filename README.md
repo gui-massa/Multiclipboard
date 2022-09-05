@@ -8,22 +8,31 @@ Another good learning point is that we are controlling our application via termi
 
 To test this:
 
-  Getting the first text (test1):
-  1. Copy some text into your clipboard (ctrl+C);
-  2. Open the directory with the multiclipboard.py and type "python3 multiclipboard.py save";
-  3. It will ask for a keyword. Use "test1" as an exemple;
+## 1. Getting the first text (test1):
+  Copy some text into your clipboard (ctrl+C);  
+  Open the directory with the multiclipboard.py and type:  
+  ```
+  python3 multiclipboard.py save
+  ```
+  It will ask for a keyword. Use "test1" as an exemple;  
   
-  Getting anothe text (test2):
-  4. Copy another text into your clipboard (ctrl+C);
-  5. Again type "python3 multiclipboard.py save" on the terminal;
-  6. It will ask for a keywork. Use "test2" as an exemple;
+## 2. Getting another text (test2):
+  Copy another text into your clipboard (ctrl+C);  
+  Again type the following in the terminal;  
+  ```
+  python3 multiclipboard.py save
+  ```
+  It will ask for a keywork. Use "test2" as an exemple;  
   
-  Unloading text to your clipboard (to be used on your ctrl+V):
-  7. Type "python3 multiclipboard.py save" on the terminal.
-  8. It will ask for a keyword, use one previosly used to save texts on the steps above. (test1 or test2)
-  9. Now unload (ctrl+V) the previously saved text anywhere.
+## Unloading text to your clipboard (to be used on your ctrl+V):
+  Type on the terminal:  
+  ```
+  python3 multiclipboard.py load
+  ```
+  It will ask for a keyword, use one previosly used to save texts on the steps above (test1 or test2).  
+  Now unload (ctrl+V) the previously saved text anywhere.  
 
-  Notes:
-  1. You can find a json file in the same directory as the application, where the information is kept.
-  2. Please note that this inforation is completely open to anyone entering the folder, so don't use it for passwords.
-  3. Is it possible to make something similar for passwords, that's for a future project I will be posting here.
+## Notes:  
+  You can find a json file in the same directory as the application, where the information is kept.  
+  Please note that this inforation is completely open to anyone entering the folder, so don't use it for passwords.  
+  Is it possible to make something similar for passwords, that's for a future project I will be posting here.  
